@@ -5,4 +5,4 @@
 - 直接打开往下拖  
 需要在safari中启用`允许未签名的扩展`。
 然后启用扩展：
-![](enable-extension.png)
+![](enable-extension.jpg)
