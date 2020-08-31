@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		888A2DFF24FAA484004A467F /* dropTag.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 888A2DFE24FAA484004A467F /* dropTag.entitlements */; };
+		888A2E0124FAA484004A467F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888A2E0024FAA484004A467F /* AppDelegate.swift */; };
+		888A2E0424FAA484004A467F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 888A2E0224FAA484004A467F /* Main.storyboard */; };
+		888A2E0624FAA484004A467F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888A2E0524FAA484004A467F /* ViewController.swift */; };
+		888A2E0824FAA488004A467F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 888A2E0724FAA488004A467F /* Assets.xcassets */; };
+		888A2E1324FAA488004A467F /* dropTagTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888A2E1224FAA488004A467F /* dropTagTests.swift */; };
+		888A2E1E24FAA488004A467F /* dropTagUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888A2E1D24FAA488004A467F /* dropTagUITests.swift */; };
+		888A2E2524FAA488004A467F /* dropTag Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 888A2E2424FAA488004A467F /* dropTag Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		888A2E2A24FAA488004A467F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 888A2E2924FAA488004A467F /* Cocoa.framework */; };
+		888A2E2D24FAA488004A467F /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888A2E2C24FAA488004A467F /* SafariExtensionHandler.swift */; };
+		888A2E2F24FAA488004A467F /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888A2E2E24FAA488004A467F /* SafariExtensionViewController.swift */; };
+		888A2E3224FAA488004A467F /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888A2E3024FAA488004A467F /* SafariExtensionViewController.xib */; };
+		888A2E3524FAA488004A467F /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 888A2E3424FAA488004A467F /* script.js */; };
+		888A2E3724FAA488004A467F /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 888A2E3624FAA488004A467F /* ToolbarItemIcon.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		888A2E0F24FAA488004A467F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 888A2DF324FAA484004A467F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 888A2DFA24FAA484004A467F;
+			remoteInfo = dropTag;
+		};
+		888A2E1A24FAA488004A467F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 888A2DF324FAA484004A467F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 888A2DFA24FAA484004A467F;
+			remoteInfo = dropTag;
+		};
+		888A2E2624FAA488004A467F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 888A2DF324FAA484004A467F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 888A2E2324FAA488004A467F;
+			remoteInfo = "dropTag Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		888A2E3E24FAA488004A467F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				888A2E2524FAA488004A467F /* dropTag Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		888A2DFB24FAA484004A467F /* dropTag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dropTag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		888A2DFE24FAA484004A467F /* dropTag.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dropTag.entitlements; sourceTree = "<group>"; };
+		888A2E0024FAA484004A467F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		888A2E0324FAA484004A467F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		888A2E0524FAA484004A467F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		888A2E0724FAA488004A467F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		888A2E0924FAA488004A467F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		888A2E0E24FAA488004A467F /* dropTagTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dropTagTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		888A2E1224FAA488004A467F /* dropTagTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dropTagTests.swift; sourceTree = "<group>"; };
+		888A2E1424FAA488004A467F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		888A2E1924FAA488004A467F /* dropTagUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dropTagUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		888A2E1D24FAA488004A467F /* dropTagUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dropTagUITests.swift; sourceTree = "<group>"; };
+		888A2E1F24FAA488004A467F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		888A2E2424FAA488004A467F /* dropTag Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "dropTag Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		888A2E2924FAA488004A467F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		888A2E2C24FAA488004A467F /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		888A2E2E24FAA488004A467F /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		888A2E3124FAA488004A467F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		888A2E3324FAA488004A467F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		888A2E3424FAA488004A467F /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		888A2E3624FAA488004A467F /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		888A2E3824FAA488004A467F /* dropTag_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dropTag_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		888A2DF824FAA484004A467F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888A2E0B24FAA488004A467F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888A2E1624FAA488004A467F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888A2E2124FAA488004A467F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888A2E2A24FAA488004A467F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		888A2DF224FAA484004A467F = {
+			isa = PBXGroup;
+			children = (
+				888A2DFD24FAA484004A467F /* dropTag */,
+				888A2E1124FAA488004A467F /* dropTagTests */,
+				888A2E1C24FAA488004A467F /* dropTagUITests */,
+				888A2E2B24FAA488004A467F /* dropTag Extension */,
+				888A2E2824FAA488004A467F /* Frameworks */,
+				888A2DFC24FAA484004A467F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		888A2DFC24FAA484004A467F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				888A2DFB24FAA484004A467F /* dropTag.app */,
+				888A2E0E24FAA488004A467F /* dropTagTests.xctest */,
+				888A2E1924FAA488004A467F /* dropTagUITests.xctest */,
+				888A2E2424FAA488004A467F /* dropTag Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		888A2DFD24FAA484004A467F /* dropTag */ = {
+			isa = PBXGroup;
+			children = (
+				888A2DFE24FAA484004A467F /* dropTag.entitlements */,
+				888A2E0024FAA484004A467F /* AppDelegate.swift */,
+				888A2E0224FAA484004A467F /* Main.storyboard */,
+				888A2E0524FAA484004A467F /* ViewController.swift */,
+				888A2E0724FAA488004A467F /* Assets.xcassets */,
+				888A2E0924FAA488004A467F /* Info.plist */,
+			);
+			path = dropTag;
+			sourceTree = "<group>";
+		};
+		888A2E1124FAA488004A467F /* dropTagTests */ = {
+			isa = PBXGroup;
+			children = (
+				888A2E1224FAA488004A467F /* dropTagTests.swift */,
+				888A2E1424FAA488004A467F /* Info.plist */,
+			);
+			path = dropTagTests;
+			sourceTree = "<group>";
+		};
+		888A2E1C24FAA488004A467F /* dropTagUITests */ = {
+			isa = PBXGroup;
+			children = (
+				888A2E1D24FAA488004A467F /* dropTagUITests.swift */,
+				888A2E1F24FAA488004A467F /* Info.plist */,
+			);
+			path = dropTagUITests;
+			sourceTree = "<group>";
+		};
+		888A2E2824FAA488004A467F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				888A2E2924FAA488004A467F /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		888A2E2B24FAA488004A467F /* dropTag Extension */ = {
+			isa = PBXGroup;
+			children = (
+				888A2E2C24FAA488004A467F /* SafariExtensionHandler.swift */,
+				888A2E2E24FAA488004A467F /* SafariExtensionViewController.swift */,
+				888A2E3024FAA488004A467F /* SafariExtensionViewController.xib */,
+				888A2E3324FAA488004A467F /* Info.plist */,
+				888A2E3424FAA488004A467F /* script.js */,
+				888A2E3624FAA488004A467F /* ToolbarItemIcon.pdf */,
+				888A2E3824FAA488004A467F /* dropTag_Extension.entitlements */,
+			);
+			path = "dropTag Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		888A2DFA24FAA484004A467F /* dropTag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 888A2E3F24FAA488004A467F /* Build configuration list for PBXNativeTarget "dropTag" */;
+			buildPhases = (
+				888A2DF724FAA484004A467F /* Sources */,
+				888A2DF824FAA484004A467F /* Frameworks */,
+				888A2DF924FAA484004A467F /* Resources */,
+				888A2E3E24FAA488004A467F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				888A2E2724FAA488004A467F /* PBXTargetDependency */,
+			);
+			name = dropTag;
+			productName = dropTag;
+			productReference = 888A2DFB24FAA484004A467F /* dropTag.app */;
+			productType = "com.apple.product-type.application";
+		};
+		888A2E0D24FAA488004A467F /* dropTagTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 888A2E4224FAA488004A467F /* Build configuration list for PBXNativeTarget "dropTagTests" */;
+			buildPhases = (
+				888A2E0A24FAA488004A467F /* Sources */,
+				888A2E0B24FAA488004A467F /* Frameworks */,
+				888A2E0C24FAA488004A467F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				888A2E1024FAA488004A467F /* PBXTargetDependency */,
+			);
+			name = dropTagTests;
+			productName = dropTagTests;
+			productReference = 888A2E0E24FAA488004A467F /* dropTagTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		888A2E1824FAA488004A467F /* dropTagUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 888A2E4524FAA488004A467F /* Build configuration list for PBXNativeTarget "dropTagUITests" */;
+			buildPhases = (
+				888A2E1524FAA488004A467F /* Sources */,
+				888A2E1624FAA488004A467F /* Frameworks */,
+				888A2E1724FAA488004A467F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				888A2E1B24FAA488004A467F /* PBXTargetDependency */,
+			);
+			name = dropTagUITests;
+			productName = dropTagUITests;
+			productReference = 888A2E1924FAA488004A467F /* dropTagUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		888A2E2324FAA488004A467F /* dropTag Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 888A2E3B24FAA488004A467F /* Build configuration list for PBXNativeTarget "dropTag Extension" */;
+			buildPhases = (
+				888A2E2024FAA488004A467F /* Sources */,
+				888A2E2124FAA488004A467F /* Frameworks */,
+				888A2E2224FAA488004A467F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dropTag Extension";
+			productName = "dropTag Extension";
+			productReference = 888A2E2424FAA488004A467F /* dropTag Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		888A2DF324FAA484004A467F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = hsiaoge;
+				TargetAttributes = {
+					888A2DFA24FAA484004A467F = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					888A2E0D24FAA488004A467F = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 888A2DFA24FAA484004A467F;
+					};
+					888A2E1824FAA488004A467F = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 888A2DFA24FAA484004A467F;
+					};
+					888A2E2324FAA488004A467F = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 888A2DF624FAA484004A467F /* Build configuration list for PBXProject "dropTag" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 888A2DF224FAA484004A467F;
+			productRefGroup = 888A2DFC24FAA484004A467F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				888A2DFA24FAA484004A467F /* dropTag */,
+				888A2E0D24FAA488004A467F /* dropTagTests */,
+				888A2E1824FAA488004A467F /* dropTagUITests */,
+				888A2E2324FAA488004A467F /* dropTag Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		888A2DF924FAA484004A467F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888A2DFF24FAA484004A467F /* dropTag.entitlements in Resources */,
+				888A2E0824FAA488004A467F /* Assets.xcassets in Resources */,
+				888A2E0424FAA484004A467F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888A2E0C24FAA488004A467F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888A2E1724FAA488004A467F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888A2E2224FAA488004A467F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888A2E3724FAA488004A467F /* ToolbarItemIcon.pdf in Resources */,
+				888A2E3224FAA488004A467F /* SafariExtensionViewController.xib in Resources */,
+				888A2E3524FAA488004A467F /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		888A2DF724FAA484004A467F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888A2E0624FAA484004A467F /* ViewController.swift in Sources */,
+				888A2E0124FAA484004A467F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888A2E0A24FAA488004A467F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888A2E1324FAA488004A467F /* dropTagTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888A2E1524FAA488004A467F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888A2E1E24FAA488004A467F /* dropTagUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888A2E2024FAA488004A467F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888A2E2F24FAA488004A467F /* SafariExtensionViewController.swift in Sources */,
+				888A2E2D24FAA488004A467F /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		888A2E1024FAA488004A467F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 888A2DFA24FAA484004A467F /* dropTag */;
+			targetProxy = 888A2E0F24FAA488004A467F /* PBXContainerItemProxy */;
+		};
+		888A2E1B24FAA488004A467F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 888A2DFA24FAA484004A467F /* dropTag */;
+			targetProxy = 888A2E1A24FAA488004A467F /* PBXContainerItemProxy */;
+		};
+		888A2E2724FAA488004A467F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 888A2E2324FAA488004A467F /* dropTag Extension */;
+			targetProxy = 888A2E2624FAA488004A467F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		888A2E0224FAA484004A467F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				888A2E0324FAA484004A467F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		888A2E3024FAA488004A467F /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				888A2E3124FAA488004A467F /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		888A2E3924FAA488004A467F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		888A2E3A24FAA488004A467F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		888A2E3C24FAA488004A467F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "dropTag Extension/dropTag_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "dropTag Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hsiaoge.dropTag-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		888A2E3D24FAA488004A467F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "dropTag Extension/dropTag_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "dropTag Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "hsiaoge.dropTag-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		888A2E4024FAA488004A467F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = dropTag/dropTag.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = dropTag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hsiaoge.dropTag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		888A2E4124FAA488004A467F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = dropTag/dropTag.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = dropTag/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hsiaoge.dropTag;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		888A2E4324FAA488004A467F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = dropTagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = hsiaoge.dropTagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dropTag.app/Contents/MacOS/dropTag";
+			};
+			name = Debug;
+		};
+		888A2E4424FAA488004A467F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = dropTagTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = hsiaoge.dropTagTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dropTag.app/Contents/MacOS/dropTag";
+			};
+			name = Release;
+		};
+		888A2E4624FAA488004A467F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = dropTagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hsiaoge.dropTagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = dropTag;
+			};
+			name = Debug;
+		};
+		888A2E4724FAA488004A467F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = dropTagUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hsiaoge.dropTagUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = dropTag;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		888A2DF624FAA484004A467F /* Build configuration list for PBXProject "dropTag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888A2E3924FAA488004A467F /* Debug */,
+				888A2E3A24FAA488004A467F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		888A2E3B24FAA488004A467F /* Build configuration list for PBXNativeTarget "dropTag Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888A2E3C24FAA488004A467F /* Debug */,
+				888A2E3D24FAA488004A467F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		888A2E3F24FAA488004A467F /* Build configuration list for PBXNativeTarget "dropTag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888A2E4024FAA488004A467F /* Debug */,
+				888A2E4124FAA488004A467F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		888A2E4224FAA488004A467F /* Build configuration list for PBXNativeTarget "dropTagTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888A2E4324FAA488004A467F /* Debug */,
+				888A2E4424FAA488004A467F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		888A2E4524FAA488004A467F /* Build configuration list for PBXNativeTarget "dropTagUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888A2E4624FAA488004A467F /* Debug */,
+				888A2E4724FAA488004A467F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 888A2DF324FAA484004A467F /* Project object */;
+}
